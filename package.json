@@ -1,0 +1,23 @@
+{
+  "name": "theme-friendly-vscode",
+  "displayName": "Friendly",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "Primalivet",
+  "repository": "git@github.com:primalivet/theme-friendly-vscode",
+  "author": "Gustaf Holm <gustafholm1@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.16.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Friendly",
+        "uiTheme": "vs-dark",
+        "path": "./themes/friendly-color-theme.json"
+      }
+    ]
+  }
+}
